@@ -1,0 +1,81 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+              <form class="add-new-job">
+                <input placeholder="Your Job Title" class="mb-3 form-control form-control-lg">
+                <ckeditor [editor]="Editor" data=""></ckeditor>
+              </form>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-3 card card-small">
+                <div class="border-bottom card-header">
+                    <h6 class="m-0">Actions</h6>
+                </div>
+                <div class="p-0 card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="p-3 list-group-item">
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">flag</i>
+                                <strong class="mr-1">Status:</strong> Draft 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">visibility</i>
+                                <strong class="mr-1">Visibility:</strong> 
+                                <strong class="text-success">Public</strong> 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">calendar_today</i>
+                                <strong class="mr-1">Deadline:</strong> 01 May 2020 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                        </li>
+                        <li class="d-flex px-3 border-0 list-group-item">
+                            <button class="btn btn-outline-accent btn-sm">
+                                <i class="material-icons">save</i> Save Draft
+                            </button>
+                            <button class="ml-auto btn btn-accent btn-sm">
+                                <i class="material-icons">file_copy</i> Publish
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mb-3 card card-small">
+                <div class="border-bottom card-header">
+                    <h6 class="m-0">Criteria</h6>
+                </div>
+                <div class="p-0 card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="p-3 list-group-item">
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">category</i>
+                                <strong class="mr-1">Category:</strong> IT
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">visibility</i>
+                                <strong class="mr-1">Level:</strong> 
+                                <strong class="text-success">Basic</strong> 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">calendar_today</i>
+                                <strong class="mr-1">Urgency Level:</strong> Urgent 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                            <span class="d-flex mb-2">
+                                <i class="material-icons mr-1">calendar_today</i>
+                                <strong class="mr-1">Salary:</strong> $1000 
+                                <a class="ml-auto" href="#">Edit</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
