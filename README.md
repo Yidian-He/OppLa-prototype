@@ -114,6 +114,16 @@ material-dashboard-angular
 │   │   │   ├── notifications.component.html
 │   │   │   ├── notifications.component.spec.ts
 │   │   │   └── notifications.component.ts
+│   │   ├── post-job
+│   │   │   ├── post-job.component.css
+│   │   │   ├── post-job.component.html
+│   │   │   ├── post-job.component.spec.ts
+│   │   │   └── post-job.component.ts
+│   │   ├── recommended-articles
+│   │   │   ├── recommended-articles.component.css
+│   │   │   ├── recommended-articles.component.html
+│   │   │   ├── recommended-articles.component.spec.ts
+│   │   │   └── recommended-articles.component.ts
 │   │   ├── table-list
 │   │   │   ├── table-list.component.css
 │   │   │   ├── table-list.component.html
