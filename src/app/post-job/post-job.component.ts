@@ -7,7 +7,7 @@ import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
   styleUrls: ['./post-job.component.css']
 })
 export class PostJobComponent implements OnInit {
-	public Editor = ClassicEditor;
+  public Editor = ClassicEditor;
  
   constructor() {}
  

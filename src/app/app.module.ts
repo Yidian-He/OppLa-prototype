@@ -23,6 +23,7 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { RecommendedArticlesComponent } from './recommended-articles/recommended-articles.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     AppComponent,
     AdminLayoutComponent,
     PostJobComponent,
+    RecommendedArticlesComponent,
 
   ],
   providers: [],

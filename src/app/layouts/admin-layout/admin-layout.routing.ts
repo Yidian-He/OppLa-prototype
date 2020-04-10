@@ -9,6 +9,7 @@ import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { PostJobComponent } from 'app/post-job/post-job.component';
+import { RecommendedArticlesComponent } from 'app/recommended-articles/recommended-articles.component';
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -62,4 +63,5 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
     { path: 'post-job',        component: PostJobComponent },
+    { path: 'recommended-articles',        component: RecommendedArticlesComponent },
 ];
