@@ -160,7 +160,7 @@ material-dashboard-angular
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](https://flattenthecurvehack.slack.com/archives/C011HEV8DGT) 
+If you have questions or need help integrating the product please [contact us](https://flattenthecurvehack.slack.com/archives/C011HEV8DGT) through Slack Channel #Moscato
 
 
 
