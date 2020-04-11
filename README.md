@@ -124,6 +124,11 @@ material-dashboard-angular
 │   │   │   ├── recommended-articles.component.html
 │   │   │   ├── recommended-articles.component.spec.ts
 │   │   │   └── recommended-articles.component.ts
+│   │   ├── search-job
+│   │   │   ├── search-job.component.css
+│   │   │   ├── search-job.component.html
+│   │   │   ├── search-job.component.spec.ts
+│   │   │   └── search-job.component.ts
 │   │   ├── table-list
 │   │   │   ├── table-list.component.css
 │   │   │   ├── table-list.component.html
