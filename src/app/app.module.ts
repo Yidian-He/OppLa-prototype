@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
@@ -36,8 +35,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     HttpModule,
     ComponentsModule,
     RouterModule,
-    AppRoutingModule,    
-    CKEditorModule,
+    AppRoutingModule, 
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
     })
@@ -45,7 +43,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    PostJobComponent,
+    // PostJobComponent,
     RecommendedArticlesComponent,
 
   ],

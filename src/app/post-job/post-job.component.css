@@ -1,3 +1,7 @@
-.ck-editor__editable:not(.ck-editor__nested-editable) { 
-    min-height: 400px;
+.ck-editor__editable_inline {
+    min-height: 500px !important;
+}
+
+:host ::ng-deep .ck-editor__editable_inline {
+    min-height: 300px !important;
 }
