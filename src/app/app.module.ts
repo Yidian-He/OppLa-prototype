@@ -13,17 +13,19 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { PostJobComponent } from './post-job/post-job.component';
+import { RecommendedArticlesComponent } from './recommended-articles/recommended-articles.component';
+import { SearchJobComponent } from './search-job/search-job.component';
 import { TableListComponent } from './table-list/table-list.component';
 // import { TypographyComponent } from './typography/typography.component';
 // import { IconsComponent } from './icons/icons.component';
 // import { MapsComponent } from './maps/maps.component';
 // import { NotificationsComponent } from './notifications/notifications.component';
 // import { UpgradeComponent } from './upgrade/upgrade.component';
+
 import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { RecommendedArticlesComponent } from './recommended-articles/recommended-articles.component';
 
 
 @NgModule({
