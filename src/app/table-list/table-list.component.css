@@ -1,0 +1,16 @@
+.card-post .card-body {
+    padding: 1.5625rem 1.5625rem;
+}
+
+.card-title {
+    font-weight: 500;
+    margin-bottom: .75rem;
+}
+
+.card-body > p:last-child {
+    margin-bottom: 0;
+}
+
+.checked {
+    color: orange;
+}
